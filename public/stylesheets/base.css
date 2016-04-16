@@ -1,0 +1,46 @@
+﻿/* yui reset.css version;2.5.2 */
+html{color:#333;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;outline:none;}input,textarea,select{*font-size:100%;}legend{color:#333;}.clear{height:0;font-size:0;line-height:0;clear:both;}
+input,select{vertical-align:middle;}
+/* end of reset.css */
+
+body{
+font-size:14px;
+font-family:'微软雅黑',Tahoma,Arial,Helvetica, sans-serif;
+*font-family:'微软雅黑';
+color:#333;
+background:url(../images/bg-home.jpg) no-repeat top center #e72a19;
+}
+a{text-decoration:none;color:#333;}
+a:hover{color:#ffa63c;}
+.clearfix{*zoom:1;}
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+
+.fl{float: left;}
+.fr{float: right;}
+
+
+
+
+
+
+/*--from now--*/
+.header{ background:#e83019; height:80px;}
+.wrapper{width:1000px;margin:0 auto;text-align:left; position:relative;}
+.header .logo{ display:inline-block; background:url(../images/logo-small.png) no-repeat; width:159px; height:54px; text-indent:-9999px; margin-top:13px;}
+
+.wrapper .content{ width:538px; float:right; padding-top:22px;}
+.wrapper .phone{ float:left; padding-top:158px;}
+.content p{ text-align:center;}
+.download{ padding-top:44px;}
+.download a{ display:block; margin-top:18px; background:#fff; border-radius:6px; text-align:center; height:62px; line-height:62px; font-size:24px; color:#e83019;}
+a.ios span{ display:inline-block; background:url(../images/ios.png) no-repeat; width:36px; height:42px; vertical-align:middle; margin-right:10px;}
+a.android span{ display:inline-block; background:url(../images/android.png) no-repeat; width:39px; height:40px; vertical-align:middle; margin-right:10px;}
+
+.float-wechat{ position:fixed; right:30px; bottom:30px; color:#fff; font-size:25px;}
+.float-wechat .fl{ text-align:right; margin-right:12px;  margin-top:66px;}
+.float-wechat p{ padding-top:0px;}
+.float-wechat p.contact{ font-size:30px;}
+.ie{_position: absolute;_clear: both;_top:expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop +(documentElement.clientHeight-this.clientHeight) - 20 :document.body.scrollTop +(document.body.clientHeight-this.clientHeight) - 20);}
+
+
+
