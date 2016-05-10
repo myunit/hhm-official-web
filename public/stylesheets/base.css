@@ -8,7 +8,7 @@ font-size:14px;
 font-family:'微软雅黑',Tahoma,Arial,Helvetica, sans-serif;
 *font-family:'微软雅黑';
 color:#333;
-background:url(../images/bg-home.jpg) no-repeat top center #e72a19;
+line-height:1.2;
 }
 a{text-decoration:none;color:#333;}
 a:hover{color:#ffa63c;}
@@ -26,6 +26,7 @@ a:hover{color:#ffa63c;}
 /*--from now--*/
 .header{ background:#e83019; height:80px;}
 .wrapper{width:900px;margin:0 auto;text-align:left; position:relative;}
+.box{background:url(../images/bg-home.jpg) no-repeat top center #e72a19; min-height:800px;}
 .header .logo{ display:inline-block; background:url(../images/logo-small.png) no-repeat; width:159px; height:54px; text-indent:-9999px; margin-top:13px;}
 
 .wrapper .content{ width:538px; float:left; padding-top:52px; padding-left:70px;}
@@ -42,6 +43,34 @@ a.android span{ display:inline-block; background:url(../images/android.png) no-r
 .float-wechat p img{ margin-top:10px;}
 .float-wechat p.contact{ font-size:20px;}
 .ie{_position: absolute;_clear: both;_top:expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop +(documentElement.clientHeight-this.clientHeight) - 20 :document.body.scrollTop +(document.body.clientHeight-this.clientHeight) - 20);}
+
+.investment{ background:url(../images/bg-home1.jpg) no-repeat center; height:574px;}
+.investment p{ width:1181px; margin:0 auto; position:relative; padding-top:20px;}
+.investment .triangel{ position:absolute; background:url(../images/bg-triangel.png) no-repeat; width:77px; height:35px; bottom:-46px; left:552px; display:block;}
+
+.header-b .logo{ width:38%; float:left; text-align:right; padding-right:2%;}
+.header-b .slogon{ width:58%; float:left; background:#f5ad6c; color:#fff; font-size:30px; height:86px; line-height:86px; padding-left:2%;}
+.header-b .slogon span{ font-size:20px;}
+
+.banner{ background:url(../images/banner.jpg) no-repeat center; height:530px; border-top:40px solid #f6f6f6;}
+
+.content-b{ width:1172px; margin:0 auto;}
+.content-b h2{ font-size:42px; text-align:center; color:#ec651c; padding:30px 0;}
+.content-b p{ font-size:20px; padding-bottom:30px;}
+
+.core{ background:url(../images/bg-img.jpg) repeat-x; height:1207px; text-align:center; padding-top:40px;}
+.partner{width:1106px; margin:0 auto; position:relative; text-align:center; height:504px;}
+.partner .img{ background:url(../images/bg-banner.png) no-repeat; display:block; width:471px; height:316px; position:absolute; top:83px; right:164px;}
+.partner h2{font-size:42px; padding-top:90px; padding-bottom:262px; }
+.partner p{ font-size:38px; }
+
+.qualify{ background:#f5aa69;}
+.qualify .content-b{ width:1000px;}
+.qualify .black,.footer .black{ color:#000 !important;}
+.qualify  ol{ padding-bottom:30px;}
+.qualify  ol li{ margin-left:20px; font-size:20px;list-style:decimal; padding-bottom:10px;}
+
+.footer{ text-align:center;}
 
 
 
